@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SideMenuViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UIActionSheetDelegate>
+@interface SideMenuViewController : UITableViewController
 
-@property (weak, nonatomic) IBOutlet UITableView *tableViewSettings;
-@property (weak, nonatomic) IBOutlet UITableView *tableviewAccounts;
-@property (weak, nonatomic) IBOutlet UITableView *tableViewProfile;
 @end

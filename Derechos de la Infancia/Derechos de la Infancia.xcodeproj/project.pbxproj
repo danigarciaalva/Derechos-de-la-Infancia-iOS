@@ -35,6 +35,9 @@
 		15197D3618D3E37300811AE4 /* circulos.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D3518D3E37300811AE4 /* circulos.png */; };
 		15197D3818D3F7F400811AE4 /* logo_redim.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D3718D3F7F400811AE4 /* logo_redim.png */; };
 		15197D3A18D3FA3000811AE4 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D3918D3FA3000811AE4 /* red.png */; };
+		15197D3C18D4092600811AE4 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D3B18D4092600811AE4 /* menu-icon.png */; };
+		15197D3F18D409BF00811AE4 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15197D3E18D409BF00811AE4 /* MainNavigationController.m */; };
+		15197D4118D40DC200811AE4 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D4018D40DC200811AE4 /* settings.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +91,10 @@
 		15197D3518D3E37300811AE4 /* circulos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circulos.png; sourceTree = "<group>"; };
 		15197D3718D3F7F400811AE4 /* logo_redim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_redim.png; sourceTree = "<group>"; };
 		15197D3918D3FA3000811AE4 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		15197D3B18D4092600811AE4 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
+		15197D3D18D409BF00811AE4 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainNavigationController.h; path = MFSideMenu/MainNavigationController.h; sourceTree = "<group>"; };
+		15197D3E18D409BF00811AE4 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainNavigationController.m; path = MFSideMenu/MainNavigationController.m; sourceTree = "<group>"; };
+		15197D4018D40DC200811AE4 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +158,8 @@
 				15197D1818D3E21400811AE4 /* MFSideMenu */,
 				15197CEF18D385AF00811AE4 /* AppDelegate.h */,
 				15197CF018D385AF00811AE4 /* AppDelegate.m */,
+				15197D3D18D409BF00811AE4 /* MainNavigationController.h */,
+				15197D3E18D409BF00811AE4 /* MainNavigationController.m */,
 				15197D2B18D3E2B900811AE4 /* TutorialController.h */,
 				15197D2C18D3E2B900811AE4 /* TutorialController.m */,
 				15197D2E18D3E2D100811AE4 /* DetailController.h */,
@@ -217,7 +226,9 @@
 				15197D2718D3E28000811AE4 /* tuto.jpg */,
 				15197D3918D3FA3000811AE4 /* red.png */,
 				15197D3118D3E36A00811AE4 /* celulares.png */,
+				15197D4018D40DC200811AE4 /* settings.png */,
 				15197D3718D3F7F400811AE4 /* logo_redim.png */,
+				15197D3B18D4092600811AE4 /* menu-icon.png */,
 				15197D3518D3E37300811AE4 /* circulos.png */,
 				15197D3218D3E36A00811AE4 /* icloud.png */,
 			);
@@ -307,8 +318,10 @@
 				15197CFC18D385B000811AE4 /* Images.xcassets in Resources */,
 				15197CF418D385AF00811AE4 /* Main_iPhone.storyboard in Resources */,
 				15197D3818D3F7F400811AE4 /* logo_redim.png in Resources */,
+				15197D3C18D4092600811AE4 /* menu-icon.png in Resources */,
 				15197D3418D3E36A00811AE4 /* icloud.png in Resources */,
 				15197D3A18D3FA3000811AE4 /* red.png in Resources */,
+				15197D4118D40DC200811AE4 /* settings.png in Resources */,
 				15197D3318D3E36A00811AE4 /* celulares.png in Resources */,
 				15197CEB18D385AF00811AE4 /* InfoPlist.strings in Resources */,
 			);
@@ -333,6 +346,7 @@
 				15197D2018D3E21400811AE4 /* MFSideMenuContainerViewController.m in Sources */,
 				15197D3018D3E2D100811AE4 /* DetailController.m in Sources */,
 				15197D2118D3E21400811AE4 /* MFSideMenuShadow.m in Sources */,
+				15197D3F18D409BF00811AE4 /* MainNavigationController.m in Sources */,
 				15197D2218D3E21400811AE4 /* UIViewController+MFSideMenuAdditions.m in Sources */,
 				15197CF118D385AF00811AE4 /* AppDelegate.m in Sources */,
 				15197D2518D3E22B00811AE4 /* SideMenuViewController.m in Sources */,
