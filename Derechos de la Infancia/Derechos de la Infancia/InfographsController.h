@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface InfographsController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *stateLabel;
+@property (weak, nonatomic) IBOutlet UIButton *downloadButton;
 
 - (IBAction)showLeftSideMenu:(id)sender;
 @end
