@@ -29,7 +29,7 @@
 		15197D2818D3E28000811AE4 /* tuto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15197D2718D3E28000811AE4 /* tuto.jpg */; };
 		15197D2A18D3E29B00811AE4 /* fondoazul.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D2918D3E29B00811AE4 /* fondoazul.png */; };
 		15197D2D18D3E2B900811AE4 /* TutorialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15197D2C18D3E2B900811AE4 /* TutorialController.m */; };
-		15197D3018D3E2D100811AE4 /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15197D2F18D3E2D100811AE4 /* DetailController.m */; };
+		15197D3018D3E2D100811AE4 /* SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15197D2F18D3E2D100811AE4 /* SearchController.m */; };
 		15197D3318D3E36A00811AE4 /* celulares.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D3118D3E36A00811AE4 /* celulares.png */; };
 		15197D3418D3E36A00811AE4 /* icloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D3218D3E36A00811AE4 /* icloud.png */; };
 		15197D3618D3E37300811AE4 /* circulos.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D3518D3E37300811AE4 /* circulos.png */; };
@@ -38,6 +38,12 @@
 		15197D3C18D4092600811AE4 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D3B18D4092600811AE4 /* menu-icon.png */; };
 		15197D3F18D409BF00811AE4 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15197D3E18D409BF00811AE4 /* MainNavigationController.m */; };
 		15197D4118D40DC200811AE4 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D4018D40DC200811AE4 /* settings.png */; };
+		15E8678918D4BF7E0009336C /* ResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E8678818D4BF7E0009336C /* ResultsController.m */; };
+		15E8678C18D4C4AE0009336C /* InfographsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E8678B18D4C4AE0009336C /* InfographsController.m */; };
+		15E8678F18D4C4BD0009336C /* TweetsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E8678E18D4C4BD0009336C /* TweetsController.m */; };
+		15E8679B18D4DE330009336C /* reply.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E8679818D4DE330009336C /* reply.png */; };
+		15E8679C18D4DE330009336C /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E8679918D4DE330009336C /* favorite.png */; };
+		15E8679D18D4DE330009336C /* retweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E8679A18D4DE330009336C /* retweet.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,8 +90,8 @@
 		15197D2918D3E29B00811AE4 /* fondoazul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoazul.png; sourceTree = "<group>"; };
 		15197D2B18D3E2B900811AE4 /* TutorialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialController.h; sourceTree = "<group>"; };
 		15197D2C18D3E2B900811AE4 /* TutorialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialController.m; sourceTree = "<group>"; };
-		15197D2E18D3E2D100811AE4 /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
-		15197D2F18D3E2D100811AE4 /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+		15197D2E18D3E2D100811AE4 /* SearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchController.h; sourceTree = "<group>"; };
+		15197D2F18D3E2D100811AE4 /* SearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchController.m; sourceTree = "<group>"; };
 		15197D3118D3E36A00811AE4 /* celulares.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celulares.png; sourceTree = "<group>"; };
 		15197D3218D3E36A00811AE4 /* icloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icloud.png; sourceTree = "<group>"; };
 		15197D3518D3E37300811AE4 /* circulos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circulos.png; sourceTree = "<group>"; };
@@ -95,6 +101,15 @@
 		15197D3D18D409BF00811AE4 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainNavigationController.h; path = MFSideMenu/MainNavigationController.h; sourceTree = "<group>"; };
 		15197D3E18D409BF00811AE4 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainNavigationController.m; path = MFSideMenu/MainNavigationController.m; sourceTree = "<group>"; };
 		15197D4018D40DC200811AE4 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		15E8678718D4BF7E0009336C /* ResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsController.h; sourceTree = "<group>"; };
+		15E8678818D4BF7E0009336C /* ResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsController.m; sourceTree = "<group>"; };
+		15E8678A18D4C4AE0009336C /* InfographsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfographsController.h; sourceTree = "<group>"; };
+		15E8678B18D4C4AE0009336C /* InfographsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfographsController.m; sourceTree = "<group>"; };
+		15E8678D18D4C4BD0009336C /* TweetsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetsController.h; sourceTree = "<group>"; };
+		15E8678E18D4C4BD0009336C /* TweetsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetsController.m; sourceTree = "<group>"; };
+		15E8679818D4DE330009336C /* reply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reply.png; sourceTree = "<group>"; };
+		15E8679918D4DE330009336C /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
+		15E8679A18D4DE330009336C /* retweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retweet.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,8 +177,8 @@
 				15197D3E18D409BF00811AE4 /* MainNavigationController.m */,
 				15197D2B18D3E2B900811AE4 /* TutorialController.h */,
 				15197D2C18D3E2B900811AE4 /* TutorialController.m */,
-				15197D2E18D3E2D100811AE4 /* DetailController.h */,
-				15197D2F18D3E2D100811AE4 /* DetailController.m */,
+				15197D2E18D3E2D100811AE4 /* SearchController.h */,
+				15197D2F18D3E2D100811AE4 /* SearchController.m */,
 				15197CF218D385AF00811AE4 /* Main_iPhone.storyboard */,
 				15197CF518D385AF00811AE4 /* Main_iPad.storyboard */,
 				15197D2318D3E22B00811AE4 /* SideMenuViewController.h */,
@@ -172,6 +187,12 @@
 				15197CF918D385AF00811AE4 /* ViewController.m */,
 				15197CFB18D385B000811AE4 /* Images.xcassets */,
 				15197CE718D385AF00811AE4 /* Supporting Files */,
+				15E8678718D4BF7E0009336C /* ResultsController.h */,
+				15E8678818D4BF7E0009336C /* ResultsController.m */,
+				15E8678A18D4C4AE0009336C /* InfographsController.h */,
+				15E8678B18D4C4AE0009336C /* InfographsController.m */,
+				15E8678D18D4C4BD0009336C /* TweetsController.h */,
+				15E8678E18D4C4BD0009336C /* TweetsController.m */,
 			);
 			path = "Derechos de la Infancia";
 			sourceTree = "<group>";
@@ -225,6 +246,9 @@
 				15197D2918D3E29B00811AE4 /* fondoazul.png */,
 				15197D2718D3E28000811AE4 /* tuto.jpg */,
 				15197D3918D3FA3000811AE4 /* red.png */,
+				15E8679818D4DE330009336C /* reply.png */,
+				15E8679918D4DE330009336C /* favorite.png */,
+				15E8679A18D4DE330009336C /* retweet.png */,
 				15197D3118D3E36A00811AE4 /* celulares.png */,
 				15197D4018D40DC200811AE4 /* settings.png */,
 				15197D3718D3F7F400811AE4 /* logo_redim.png */,
@@ -312,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15197CF718D385AF00811AE4 /* Main_iPad.storyboard in Resources */,
+				15E8679C18D4DE330009336C /* favorite.png in Resources */,
 				15197D2818D3E28000811AE4 /* tuto.jpg in Resources */,
 				15197D3618D3E37300811AE4 /* circulos.png in Resources */,
 				15197D2A18D3E29B00811AE4 /* fondoazul.png in Resources */,
@@ -323,6 +348,8 @@
 				15197D3A18D3FA3000811AE4 /* red.png in Resources */,
 				15197D4118D40DC200811AE4 /* settings.png in Resources */,
 				15197D3318D3E36A00811AE4 /* celulares.png in Resources */,
+				15E8679B18D4DE330009336C /* reply.png in Resources */,
+				15E8679D18D4DE330009336C /* retweet.png in Resources */,
 				15197CEB18D385AF00811AE4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,14 +371,17 @@
 			files = (
 				15197CFA18D385AF00811AE4 /* ViewController.m in Sources */,
 				15197D2018D3E21400811AE4 /* MFSideMenuContainerViewController.m in Sources */,
-				15197D3018D3E2D100811AE4 /* DetailController.m in Sources */,
+				15E8678C18D4C4AE0009336C /* InfographsController.m in Sources */,
+				15197D3018D3E2D100811AE4 /* SearchController.m in Sources */,
 				15197D2118D3E21400811AE4 /* MFSideMenuShadow.m in Sources */,
 				15197D3F18D409BF00811AE4 /* MainNavigationController.m in Sources */,
 				15197D2218D3E21400811AE4 /* UIViewController+MFSideMenuAdditions.m in Sources */,
 				15197CF118D385AF00811AE4 /* AppDelegate.m in Sources */,
 				15197D2518D3E22B00811AE4 /* SideMenuViewController.m in Sources */,
 				15197CED18D385AF00811AE4 /* main.m in Sources */,
+				15E8678F18D4C4BD0009336C /* TweetsController.m in Sources */,
 				15197D2D18D3E2B900811AE4 /* TutorialController.m in Sources */,
+				15E8678918D4BF7E0009336C /* ResultsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

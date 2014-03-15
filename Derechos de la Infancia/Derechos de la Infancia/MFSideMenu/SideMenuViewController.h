@@ -10,4 +10,5 @@
 
 @interface SideMenuViewController : UITableViewController
 
+@property (weak, nonatomic) IBOutlet UITableViewCell *firstCell;
 @end
