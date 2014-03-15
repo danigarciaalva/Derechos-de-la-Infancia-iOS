@@ -22,6 +22,19 @@
 		15197D0518D385B000811AE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15197CE418D385AF00811AE4 /* UIKit.framework */; };
 		15197D0D18D385B000811AE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15197D0B18D385B000811AE4 /* InfoPlist.strings */; };
 		15197D0F18D385B000811AE4 /* Derechos_de_la_InfanciaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15197D0E18D385B000811AE4 /* Derechos_de_la_InfanciaTests.m */; };
+		15197D2018D3E21400811AE4 /* MFSideMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15197D1B18D3E21400811AE4 /* MFSideMenuContainerViewController.m */; };
+		15197D2118D3E21400811AE4 /* MFSideMenuShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 15197D1D18D3E21400811AE4 /* MFSideMenuShadow.m */; };
+		15197D2218D3E21400811AE4 /* UIViewController+MFSideMenuAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 15197D1F18D3E21400811AE4 /* UIViewController+MFSideMenuAdditions.m */; };
+		15197D2518D3E22B00811AE4 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15197D2418D3E22B00811AE4 /* SideMenuViewController.m */; };
+		15197D2818D3E28000811AE4 /* tuto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15197D2718D3E28000811AE4 /* tuto.jpg */; };
+		15197D2A18D3E29B00811AE4 /* fondoazul.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D2918D3E29B00811AE4 /* fondoazul.png */; };
+		15197D2D18D3E2B900811AE4 /* TutorialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15197D2C18D3E2B900811AE4 /* TutorialController.m */; };
+		15197D3018D3E2D100811AE4 /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15197D2F18D3E2D100811AE4 /* DetailController.m */; };
+		15197D3318D3E36A00811AE4 /* celulares.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D3118D3E36A00811AE4 /* celulares.png */; };
+		15197D3418D3E36A00811AE4 /* icloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D3218D3E36A00811AE4 /* icloud.png */; };
+		15197D3618D3E37300811AE4 /* circulos.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D3518D3E37300811AE4 /* circulos.png */; };
+		15197D3818D3F7F400811AE4 /* logo_redim.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D3718D3F7F400811AE4 /* logo_redim.png */; };
+		15197D3A18D3FA3000811AE4 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 15197D3918D3FA3000811AE4 /* red.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +68,26 @@
 		15197D0A18D385B000811AE4 /* Derechos de la InfanciaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Derechos de la InfanciaTests-Info.plist"; sourceTree = "<group>"; };
 		15197D0C18D385B000811AE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15197D0E18D385B000811AE4 /* Derechos_de_la_InfanciaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Derechos_de_la_InfanciaTests.m; sourceTree = "<group>"; };
+		15197D1918D3E21400811AE4 /* MFSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenu.h; sourceTree = "<group>"; };
+		15197D1A18D3E21400811AE4 /* MFSideMenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuContainerViewController.h; sourceTree = "<group>"; };
+		15197D1B18D3E21400811AE4 /* MFSideMenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuContainerViewController.m; sourceTree = "<group>"; };
+		15197D1C18D3E21400811AE4 /* MFSideMenuShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuShadow.h; sourceTree = "<group>"; };
+		15197D1D18D3E21400811AE4 /* MFSideMenuShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuShadow.m; sourceTree = "<group>"; };
+		15197D1E18D3E21400811AE4 /* UIViewController+MFSideMenuAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MFSideMenuAdditions.h"; sourceTree = "<group>"; };
+		15197D1F18D3E21400811AE4 /* UIViewController+MFSideMenuAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MFSideMenuAdditions.m"; sourceTree = "<group>"; };
+		15197D2318D3E22B00811AE4 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideMenuViewController.h; path = MFSideMenu/SideMenuViewController.h; sourceTree = "<group>"; };
+		15197D2418D3E22B00811AE4 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideMenuViewController.m; path = MFSideMenu/SideMenuViewController.m; sourceTree = "<group>"; };
+		15197D2718D3E28000811AE4 /* tuto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tuto.jpg; sourceTree = "<group>"; };
+		15197D2918D3E29B00811AE4 /* fondoazul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoazul.png; sourceTree = "<group>"; };
+		15197D2B18D3E2B900811AE4 /* TutorialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialController.h; sourceTree = "<group>"; };
+		15197D2C18D3E2B900811AE4 /* TutorialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialController.m; sourceTree = "<group>"; };
+		15197D2E18D3E2D100811AE4 /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		15197D2F18D3E2D100811AE4 /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+		15197D3118D3E36A00811AE4 /* celulares.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celulares.png; sourceTree = "<group>"; };
+		15197D3218D3E36A00811AE4 /* icloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icloud.png; sourceTree = "<group>"; };
+		15197D3518D3E37300811AE4 /* circulos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circulos.png; sourceTree = "<group>"; };
+		15197D3718D3F7F400811AE4 /* logo_redim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_redim.png; sourceTree = "<group>"; };
+		15197D3918D3FA3000811AE4 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +147,18 @@
 		15197CE618D385AF00811AE4 /* Derechos de la Infancia */ = {
 			isa = PBXGroup;
 			children = (
+				15197D2618D3E26C00811AE4 /* Images */,
+				15197D1818D3E21400811AE4 /* MFSideMenu */,
 				15197CEF18D385AF00811AE4 /* AppDelegate.h */,
 				15197CF018D385AF00811AE4 /* AppDelegate.m */,
+				15197D2B18D3E2B900811AE4 /* TutorialController.h */,
+				15197D2C18D3E2B900811AE4 /* TutorialController.m */,
+				15197D2E18D3E2D100811AE4 /* DetailController.h */,
+				15197D2F18D3E2D100811AE4 /* DetailController.m */,
 				15197CF218D385AF00811AE4 /* Main_iPhone.storyboard */,
 				15197CF518D385AF00811AE4 /* Main_iPad.storyboard */,
+				15197D2318D3E22B00811AE4 /* SideMenuViewController.h */,
+				15197D2418D3E22B00811AE4 /* SideMenuViewController.m */,
 				15197CF818D385AF00811AE4 /* ViewController.h */,
 				15197CF918D385AF00811AE4 /* ViewController.m */,
 				15197CFB18D385B000811AE4 /* Images.xcassets */,
@@ -153,6 +194,34 @@
 				15197D0B18D385B000811AE4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15197D1818D3E21400811AE4 /* MFSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				15197D1918D3E21400811AE4 /* MFSideMenu.h */,
+				15197D1A18D3E21400811AE4 /* MFSideMenuContainerViewController.h */,
+				15197D1B18D3E21400811AE4 /* MFSideMenuContainerViewController.m */,
+				15197D1C18D3E21400811AE4 /* MFSideMenuShadow.h */,
+				15197D1D18D3E21400811AE4 /* MFSideMenuShadow.m */,
+				15197D1E18D3E21400811AE4 /* UIViewController+MFSideMenuAdditions.h */,
+				15197D1F18D3E21400811AE4 /* UIViewController+MFSideMenuAdditions.m */,
+			);
+			path = MFSideMenu;
+			sourceTree = "<group>";
+		};
+		15197D2618D3E26C00811AE4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				15197D2918D3E29B00811AE4 /* fondoazul.png */,
+				15197D2718D3E28000811AE4 /* tuto.jpg */,
+				15197D3918D3FA3000811AE4 /* red.png */,
+				15197D3118D3E36A00811AE4 /* celulares.png */,
+				15197D3718D3F7F400811AE4 /* logo_redim.png */,
+				15197D3518D3E37300811AE4 /* circulos.png */,
+				15197D3218D3E36A00811AE4 /* icloud.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +301,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				15197CF718D385AF00811AE4 /* Main_iPad.storyboard in Resources */,
+				15197D2818D3E28000811AE4 /* tuto.jpg in Resources */,
+				15197D3618D3E37300811AE4 /* circulos.png in Resources */,
+				15197D2A18D3E29B00811AE4 /* fondoazul.png in Resources */,
 				15197CFC18D385B000811AE4 /* Images.xcassets in Resources */,
 				15197CF418D385AF00811AE4 /* Main_iPhone.storyboard in Resources */,
+				15197D3818D3F7F400811AE4 /* logo_redim.png in Resources */,
+				15197D3418D3E36A00811AE4 /* icloud.png in Resources */,
+				15197D3A18D3FA3000811AE4 /* red.png in Resources */,
+				15197D3318D3E36A00811AE4 /* celulares.png in Resources */,
 				15197CEB18D385AF00811AE4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,8 +330,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				15197CFA18D385AF00811AE4 /* ViewController.m in Sources */,
+				15197D2018D3E21400811AE4 /* MFSideMenuContainerViewController.m in Sources */,
+				15197D3018D3E2D100811AE4 /* DetailController.m in Sources */,
+				15197D2118D3E21400811AE4 /* MFSideMenuShadow.m in Sources */,
+				15197D2218D3E21400811AE4 /* UIViewController+MFSideMenuAdditions.m in Sources */,
 				15197CF118D385AF00811AE4 /* AppDelegate.m in Sources */,
+				15197D2518D3E22B00811AE4 /* SideMenuViewController.m in Sources */,
 				15197CED18D385AF00811AE4 /* main.m in Sources */,
+				15197D2D18D3E2B900811AE4 /* TutorialController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +556,7 @@
 				15197D1418D385B000811AE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15197D1518D385B000811AE4 /* Build configuration list for PBXNativeTarget "Derechos de la InfanciaTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +565,7 @@
 				15197D1718D385B000811AE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
