@@ -44,6 +44,9 @@
 		15E8679B18D4DE330009336C /* reply.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E8679818D4DE330009336C /* reply.png */; };
 		15E8679C18D4DE330009336C /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E8679918D4DE330009336C /* favorite.png */; };
 		15E8679D18D4DE330009336C /* retweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E8679A18D4DE330009336C /* retweet.png */; };
+		15EBB19A18D6888400939C1E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EBB19918D6888400939C1E /* Accounts.framework */; };
+		15EBB19C18D6888B00939C1E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EBB19B18D6888B00939C1E /* Social.framework */; };
+		15EBB19F18D694F800939C1E /* TweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EBB19E18D694F800939C1E /* TweetCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +113,10 @@
 		15E8679818D4DE330009336C /* reply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reply.png; sourceTree = "<group>"; };
 		15E8679918D4DE330009336C /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
 		15E8679A18D4DE330009336C /* retweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retweet.png; sourceTree = "<group>"; };
+		15EBB19918D6888400939C1E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		15EBB19B18D6888B00939C1E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		15EBB19D18D694F800939C1E /* TweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetCell.h; sourceTree = "<group>"; };
+		15EBB19E18D694F800939C1E /* TweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +124,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15EBB19C18D6888B00939C1E /* Social.framework in Frameworks */,
+				15EBB19A18D6888400939C1E /* Accounts.framework in Frameworks */,
 				15197CE318D385AF00811AE4 /* CoreGraphics.framework in Frameworks */,
 				15197CE518D385AF00811AE4 /* UIKit.framework in Frameworks */,
 				15197CE118D385AF00811AE4 /* Foundation.framework in Frameworks */,
@@ -158,6 +167,8 @@
 		15197CDF18D385AF00811AE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				15EBB19B18D6888B00939C1E /* Social.framework */,
+				15EBB19918D6888400939C1E /* Accounts.framework */,
 				15197CE018D385AF00811AE4 /* Foundation.framework */,
 				15197CE218D385AF00811AE4 /* CoreGraphics.framework */,
 				15197CE418D385AF00811AE4 /* UIKit.framework */,
@@ -193,6 +204,8 @@
 				15E8678B18D4C4AE0009336C /* InfographsController.m */,
 				15E8678D18D4C4BD0009336C /* TweetsController.h */,
 				15E8678E18D4C4BD0009336C /* TweetsController.m */,
+				15EBB19D18D694F800939C1E /* TweetCell.h */,
+				15EBB19E18D694F800939C1E /* TweetCell.m */,
 			);
 			path = "Derechos de la Infancia";
 			sourceTree = "<group>";
@@ -382,6 +395,7 @@
 				15E8678F18D4C4BD0009336C /* TweetsController.m in Sources */,
 				15197D2D18D3E2B900811AE4 /* TutorialController.m in Sources */,
 				15E8678918D4BF7E0009336C /* ResultsController.m in Sources */,
+				15EBB19F18D694F800939C1E /* TweetCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

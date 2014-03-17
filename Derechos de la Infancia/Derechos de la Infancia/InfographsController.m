@@ -31,7 +31,7 @@
     self.stateLabel.layer.cornerRadius = 3.0f;
     self.stateLabel.layer.borderColor = [UIColor lightGrayColor].CGColor;
     
-    self.downloadButton.backgroundColor = [UIColor colorWithRed:209.0/255.0 green:28.0/255.0 blue:26.0/255.0 alpha:0.8];
+    self.downloadButton.backgroundColor = [UIColor colorWithRed:209.0/255.0 green:28.0/255.0 blue:26.0/255.0 alpha:1];
     self.downloadButton.layer.cornerRadius = 3.0f;
     [self.downloadButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
 }
